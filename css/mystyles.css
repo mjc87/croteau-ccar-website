@@ -47,6 +47,10 @@ div.background {
     top: 0px;
     bottom: 0px;
     z-index: 1;
+    background-image: url("/croteau/img/background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 
 div.foreground {
@@ -349,6 +353,7 @@ Mobile Scaling
     div.header-right { display: none; }
     div.header-left { width: auto; }
     div.header-menu { display: block; }
+    div.background { background-size: 940px; }
 }
 
 @media screen and (max-width: 560px) {
